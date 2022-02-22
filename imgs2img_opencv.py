@@ -298,7 +298,7 @@ def get_font_path(src: str, type: str):
                  'jp': [],
                  'ko': [],
                  'eng': ['MaShanZheng-Regular.ttf'],
-                 'other': ['BeautyMarks.ttf', 'DarriansSexySilouettes.ttf', 'Sexy Silouette Stencils.ttf']}
+                 'other': ['Marks.ttf', 'ttes.ttf', 'Stencils.ttf']}
     if type == 'default':
         font_type = which_font(src)
         font_path = convert_path(os.path.join(G_FONT_DIR, random.sample(font_dict[font_type], 1)[0]))
